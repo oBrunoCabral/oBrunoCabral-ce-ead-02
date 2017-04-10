@@ -141,5 +141,13 @@
 	   <?php echo $nomeCoord = $_POST['nomeCoordenador']; ?> - Coordenador(a)
 	</p>
 
+	<?php
+		$ladoq = $_POST['lado']; 
+		$perimetro = $ladoq * 4;
+		$area = $ladoq * $ladoq;
+	?>
+
+	<p> Perímetro: <?php echo number_format( $perimetro ). '<br>'; ?> Área: <?php echo number_format( $area); ?> m²</p>
+
 </body>
 </html>
