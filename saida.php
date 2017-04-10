@@ -147,7 +147,7 @@
 		$area = $ladoq * $ladoq;
 	?>
 
-	<p> Perímetro: <?php echo number_format( $perimetro ). '<br>'; ?> Área: <?php echo number_format( $area); ?> m²</p>
+	<p> Perímetro: <?php echo number_format(( $perimetro ),2,',',','). '<br>'; ?> Área: <?php echo number_format(( $area),2,',',','); ?> m²</p>
 
 </body>
 </html>
